@@ -1,5 +1,2 @@
-# [Nursery Nearby](https://nurserynearby.com/)
-
-## Find nursery nearby
-
-Coming Soon...
+# Landing-Page
+This is a landing page web project designed using Bootstrap4
