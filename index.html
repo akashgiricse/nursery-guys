@@ -7,33 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
-    <style type="text/css">
-      .jumbotron{
-        background-image: url('background.jpg');
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        min-height: 100vh;
-      }
-      section{
-        padding-top: 4rem;
-      }
-      #section-appointment{
-        padding-top: 0;
-      }
-      body{
-        font-family: 'Open Sans', sans-serif;
-      }
-      h1, h2, h3, h4, h5, h6{
+    <!-- Font Awesome JS -->
+    <script defer src="assets/js/all.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
 
-        font-family: 'Rubik', sans-serif;
-      }
-
-    </style>
   </head>
   <body data-spy = "scroll" data-target = "#navScrollspy">
     <nav class="navbar bg-success navbar-dark navbar-expand-md fixed-top">
@@ -85,7 +69,7 @@
     </section>
     <div class="container">
       <section id="section-description">
-        <h2 class="display-4 text-center">What is Nursery Guys?</h2>
+        <h2 class="display-4 text-center text-success">What is Nursery Guys?</h2>
         <p>We provide gardening and landscaping services to enhance your quality of life. Our expertise and creativity
            can bring your vision to life, whether you want a garden oasis or an inviting patio space.</p>
         <p>Our skilled professionals offer personalized service and attention to detail, working closely with you to
@@ -94,14 +78,14 @@
         
       </section>
       <section id="section-trailer">
-        <h2 class="display-4 text-center">Our process</h2>
+        <h2 class="display-4 text-center text-success">Our process</h2>
         <p class="text-center">Watch our trailer video below to learn how Nursery Guys works.</p>
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://youtube.com/embed/vk1wOa3-3jI"></iframe>
         </div>
       </section>
       <section id="section-showcase">
-        <h2 class="display-4 text-center">Nursery Guys in action</h2>
+        <h2 class="display-4 text-center text-success">Nursery Guys in action</h2>
         <p class="text-center">Examples of how and where you can use Nursery Guys.</p>
         <div id="carousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -112,28 +96,28 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img src="showcase01.jpg" alt="Slide #1" class="d-block img-fluid">
+              <img src="/assets/img/showcase01.jpg" alt="Slide #1" class="d-block img-fluid">
               <div class="carousel-caption">
                 <h3 class="display-4">Natural Plants</h3>
                 <p>Grow natural plants in your garden</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="showcase02.jpg" alt="Slide #2" class="d-block img-fluid">
+              <img src="/assets/img/showcase02.jpg" alt="Slide #2" class="d-block img-fluid">
               <div class="carousel-caption">
                 <h3 class="display-4">Outside garden</h3>
                 <p>Grow plants in your garden</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="showcase03.jpg" alt="Slide #3" class="d-block img-fluid">
+              <img src="/assets/img/showcase03.jpg" alt="Slide #3" class="d-block img-fluid">
               <div class="carousel-caption">
                 <h3 class="display-4">Vegetable</h3>
                 <p>Grow Vegetable and eat healthy</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="showcase04.jpg" alt="Slide #4" class="d-block img-fluid">
+              <img src="/assets/img/showcase04.jpg" alt="Slide #4" class="d-block img-fluid">
               <div class="carousel-caption">
                 <h3 class="display-4">Grow your own plants</h3>
                 <p>Grow your own plants and watch them shine</p>
@@ -151,36 +135,36 @@
         </div>
       </section>
       <section id="section-features">
-        <h2 class="display-4 text-center">Services</h2>
+        <h2 class="display-4 text-center text-success">Services</h2>
         <div class="row">
           <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
-            <div class="h1"><i class="fa fa-paint-brush mb-4 text-success" aria-hidden="true"></i></div>
-            <h3 class="h4 mb-4 text-center">Garden Design and Installation</h3>
+            <!-- <div class="h1"><i class="fab fa-instagram mb-4 text-success" aria-hidden="true"></i></div> -->
+            <h3 class="h4 mb-4 text-center text-success">Garden Design and Installation</h3>
             <p>We create custom gardens to enhance your outdoor space with high-quality plants and materials. </p>
             <a href="#" class="btn btn-sm btn-success mt-auto">Read More...</a>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
-            <div class="h1"><i class="fa fa-video-camera mb-4 text-success" aria-hidden="true"></i></div>
-            <h3 class="h4 mb-4 text-center">Lawn Care and Maintenance</h3>
+            <!-- <div class="h1"><i class="fab fa-instagram mb-4 text-success" aria-hidden="true"></i></div> -->
+            <h3 class="h4 mb-4 text-center text-success">Lawn Care and Maintenance</h3>
             <p>Our team provides comprehensive services to keep your lawn healthy and beautiful with eco-friendly practices.</p>
             <a href="#" class="btn btn-sm btn-success mt-auto">Read More...</a>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
-            <div class="h1"><i class="fa fa-instagram mb-4 text-success" aria-hidden="true"></i></div>
-            <h3 class="h4 mb-4 text-center">Hardscaping</h3>
+            <!-- <div class="h1"><i class="fab fa-instagram mb-4 text-success" aria-hidden="true"></i></div> -->
+            <h3 class="h4 mb-4 text-center text-success">Hardscaping</h3>
             <p>We design and build durable hardscape features such as patios and retaining walls to add value to your property.</p>
             <a href="#" class="btn btn-sm btn-success mt-auto">Read More...</a>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
-            <div class="h1"><i class="fa fa-mobile mb-4 text-success" aria-hidden="true"></i></div>
-            <h3 class="h4 mb-4 text-center">Tree and Shrub Care</h3>
+            <!-- <div class="h1"><i class="fab fa-user mb-4 text-success" aria-hidden="true"></i></div> -->
+            <h3 class="h4 mb-4 text-center text-success">Tree and Shrub Care</h3>
             <p>Our expert arborists offer pruning, fertilization, and disease treatment to keep your trees and shrubs healthy and beautiful. We also provide tree removal services.</p>
             <a href="#" class="btn btn-sm btn-success mt-auto">Read More...</a>
         </div>
         </div>
       </section>
       <section id="section-pricing">
-        <h2 class="display-4 text-center">Packages</h2>
+        <h2 class="display-4 text-center text-success">Packages</h2>
         <div class="row">
           <div class="col-12 col-md-4 mb-4">
             <div class="card card-outline-success">
@@ -192,10 +176,10 @@
                 <p class="card-text">Best for beginners</p>
               </div>
               <ul class="list-group">
-                <li class="list-group-item"><i class="fa fa-fw fa-paint-brush" aria-hidden="true"></i> Lawn Mowing and Edging</li>
-                <li class="list-group-item"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i>Weed Control Application</li>
-                <li class="list-group-item"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i>Hedge Trimming</li>
-                <li class="list-group-item"><i class="fa fa-fw fa-cog" aria-hidden="true"></i>Shrub Trimming</li>
+                <li class="list-group-item"><i class="fa fa-fw fa-cog text-success" aria-hidden="true"></i> Lawn Mowing and Edging</li>
+                <li class="list-group-item"><i class="fa fa-fw fa-cog text-success" aria-hidden="true"></i> Weed Control Application</li>
+                <li class="list-group-item"><i class="fa fa-fw fa-cog text-success" aria-hidden="true"></i> Hedge Trimming</li>
+                <li class="list-group-item"><i class="fa fa-fw fa-cog text-success" aria-hidden="true"></i> Shrub Trimming</li>
               </ul>
               <div class="card-footer text-center">
                 <a href="#" class="btn btn-success btn-lg">Select Plan</a>
@@ -212,10 +196,10 @@
                 <p class="card-text">Perfect if you already have a garden</p>
               </div>
               <ul class="list-group">
-                <li class="list-group-item"><i class="fa fa-fw fa-paint-brush" aria-hidden="true"></i>Everything included in basic package</li>
-                <li class="list-group-item"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i>Weed Control and Fertilizer Application</li>
-                <li class="list-group-item"><i class="fa fa-fw fa-cog" aria-hidden="true"></i>Core Aeration and Overseeding</li>
-                <li class="list-group-item"><i class="fa fa-fw fa-cog" aria-hidden="true"></i>Spring and Fall Cleanups</li>
+                <li class="list-group-item"><i class="fa fa-fw fa-cog text-success" aria-hidden="true"></i> Everything included in basic package</li>
+                <li class="list-group-item"><i class="fa fa-fw fa-cog text-success" aria-hidden="true"></i> Weed Control and Fertilizer Application</li>
+                <li class="list-group-item"><i class="fa fa-fw fa-cog text-success" aria-hidden="true"></i> Core Aeration and Overseeding</li>
+                <li class="list-group-item"><i class="fa fa-fw fa-cog text-success" aria-hidden="true"></i> Spring and Fall Cleanups</li>
                 
               </ul>
               <div class="card-footer text-center">
@@ -233,10 +217,10 @@
                 <p class="card-text">Perfect if you're a pro.</p>
               </div>
               <ul class="list-group">
-                <li class="list-group-item"><i class="fa fa-fw fa-paint-brush" aria-hidden="true"></i>Everything included in premium package</li>
-                <li class="list-group-item"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i>Mulch Installation</li>
-                <li class="list-group-item"><i class="fa fa-fw fa-cog" aria-hidden="true"></i>Hardscape Maintenance</li>
-                <li class="list-group-item"><i class="fa fa-fw fa-cloud" aria-hidden="true"></i>Spring and Fall Cleanups</li>
+                <li class="list-group-item"><i class="fa fa-fw fa-cog text-success" aria-hidden="true"></i> Everything included in premium package</li>
+                <li class="list-group-item"><i class="fa fa-fw fa-cog text-success" aria-hidden="true"></i> Mulch Installation</li>
+                <li class="list-group-item"><i class="fa fa-fw fa-cog text-success" aria-hidden="true"></i> Hardscape Maintenance</li>
+                <li class="list-group-item"><i class="fa fa-fw fa-cog text-success" aria-hidden="true"></i> Spring and Fall Cleanups</li>
               </ul>
               <div class="card-footer text-center">
                 <a href="#" class="btn btn-danger btn-lg">Select Plan</a>
@@ -246,7 +230,7 @@
         </div>
       </section>
       <section id="section-reviews">
-        <h2 class="display-4 text-center">What others say</h2>
+        <h2 class="display-4 text-center text-success">What others say</h2>
         <div class="row">
           <div class="col-12 col-md-6 col-xl-3">
               <blockquote class="blockquote p-3">
@@ -276,6 +260,57 @@
               </blockquote>
            </div>
       </section>
+      <div class="social-container">
+        <section id="section-around-the-web">
+          <h2 class="display-4 text-center text-success">Around the web</h2>
+          <p class="lead text-center mb-0">
+            Get to know more about me on these platforms
+          </p>
+          <div class="row">
+            <div
+              class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mt-0"
+            >
+              <a
+                class="social-icon"
+                href="https://www.facebook.com/nurseryguys"
+                target="_blank"
+                ><i class="fab fa-fw fa-facebook" aria-hidden="true"></i
+              ></a>
+            </div>
+            <div
+              class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center"
+            >
+              <a
+                class="social-icon"
+                href="https://www.instagram.com/nurseryguys/"
+                target="_blank"
+                ><i class="fab fa-fw fa-instagram" aria-hidden="true"></i
+              ></a>
+            </div>
+            <div
+              class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center"
+            >
+              <a
+                class="social-icon"
+                href="https://twitter.com/NurseryGuys"
+                target="_blank"
+                ><i class="fab fa-fw fa-twitter" aria-hidden="true"></i
+              ></a>
+            </div>
+            <div
+              class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center"
+            >
+              <a
+                class="social-icon"
+                href="#"
+                target="_blank"
+                ><i class="fab fa-fw fa-youtube" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </div>
+
     </div>
     
         </form>
@@ -307,7 +342,7 @@
           
         </div>
       </div>
-    </section> -->
+    </section>
     <section id="section-appointment" class="bg-success">
       <div class="container">
         <form
@@ -417,11 +452,11 @@
              <div class="col-12 col-sm-6 col-lg-3"> 
               <h6>Follow Us</h6>
               <ul class="list-unstyled">
-                <li><a href="https://www.facebook.com/nurseryguys"><i class="fa fa-fw fa-facebook " aria-hidden="true"></i> Facebook</a></li>
-                <li><a href="https://www.instagram.com/nurseryguys/"><i class="fa fa-fw fa-instagram " aria-hidden="true"></i> Instagram</a></li>
-                <li><a href="https://twitter.com/NurseryGuys"><i class="fa fa-fw fa-twitter " aria-hidden="true"></i> Twitter</a></li>
-                <li><a href="#"><i class="fa fa-fw fa-youtube " aria-hidden="true"></i> YouTube</a></li>
-                <li><a href="#"><i class="fa fa-fw fa-linkedin " aria-hidden="true"></i> LinkedIn</a></li> 
+                <li><a href="https://www.facebook.com/nurseryguys"><i class="fab fa-fw fa-facebook text-muted" aria-hidden="true"></i> Facebook</a></li>
+                <li><a href="https://www.instagram.com/nurseryguys/"><i class="fab fa-fw fa-instagram text-muted" aria-hidden="true"></i> Instagram</a></li>
+                <li><a href="https://twitter.com/NurseryGuys"><i class="fab fa-fw fa-twitter  text-muted" aria-hidden="true"></i> Twitter</a></li>
+                <li><a href="#"><i class="fab fa-fw fa-youtube text-muted" aria-hidden="true"></i> YouTube</a></li>
+                <li><a href="#"><i class="fab fa-fw fa-linkedin text-muted" aria-hidden="true"></i> LinkedIn</a></li> 
               </ul>        
             </div>
              <div class="col-12 col-sm-6 col-lg-3"> 
@@ -430,8 +465,8 @@
                 <strong>Nursery Guys</strong><br>
                 Gomti Nagar, Lucknow<br>
                 Uttar Pradesh, 226010<br>
-                <i class="fa fa-fw fa-phone" aria-hidden="true"></i> <span class="sr-only">Telephone:</span><a href="tel:+917376787856">(+91) 737-678-7856</a><br>
-                <i class="fa fa-fw fa-inbox" aria-hidden="true"></i> <span class="sr-only">Mail:</span><a href="mailto:info@nurseryguys.com">info@nurseryguys.com</a>
+                <i class="fa fa-fw fa-phone text-muted" aria-hidden="true"></i> <span class="sr-only">Telephone:</span><a href="tel:+917376787856">(+91) 737-678-7856</a><br>
+                <i class="fa fa-fw fa-inbox text-muted" aria-hidden="true"></i> <span class="sr-only">Mail:</span><a href="mailto:info@nurseryguys.com">info@nurseryguys.com</a>
               </address>
              </div>
         </div> 
