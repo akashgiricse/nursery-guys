@@ -11,6 +11,7 @@ section{
 #section-appointment{
   padding-top: 0;
 }
+ 
 body{
   font-family: 'Open Sans', sans-serif;
 }
@@ -27,6 +28,4 @@ h1, h2, h3, h4, h5, h6{
 font-size: 100px;
 width: 100px;
 text-align: center;
-color: green;
-/* margin-bottom: 20%; */
 }
